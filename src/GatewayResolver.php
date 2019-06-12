@@ -1,20 +1,20 @@
 <?php
 
-namespace Larabookir\Gateway;
+namespace Viratef\Gateway;
 
-use Larabookir\Gateway\Parsian\Parsian;
-use Larabookir\Gateway\Paypal\Paypal;
-use Larabookir\Gateway\Sadad\Sadad;
-use Larabookir\Gateway\Mellat\Mellat;
-use Larabookir\Gateway\Pasargad\Pasargad;
-use Larabookir\Gateway\Saman\Saman;
-use Larabookir\Gateway\Asanpardakht\Asanpardakht;
-use Larabookir\Gateway\Zarinpal\Zarinpal;
-use Larabookir\Gateway\Payir\Payir;
-use Larabookir\Gateway\Exceptions\RetryException;
-use Larabookir\Gateway\Exceptions\PortNotFoundException;
-use Larabookir\Gateway\Exceptions\InvalidRequestException;
-use Larabookir\Gateway\Exceptions\NotFoundTransactionException;
+use Viratef\Gateway\Parsian\Parsian;
+use Viratef\Gateway\Paypal\Paypal;
+use Viratef\Gateway\Sadad\Sadad;
+use Viratef\Gateway\Mellat\Mellat;
+use Viratef\Gateway\Pasargad\Pasargad;
+use Viratef\Gateway\Saman\Saman;
+use Viratef\Gateway\Asanpardakht\Asanpardakht;
+use Viratef\Gateway\Zarinpal\Zarinpal;
+use Viratef\Gateway\Payir\Payir;
+use Viratef\Gateway\Exceptions\RetryException;
+use Viratef\Gateway\Exceptions\PortNotFoundException;
+use Viratef\Gateway\Exceptions\InvalidRequestException;
+use Viratef\Gateway\Exceptions\NotFoundTransactionException;
 use Illuminate\Support\Facades\DB;
 
 class GatewayResolver

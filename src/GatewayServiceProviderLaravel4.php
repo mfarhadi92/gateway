@@ -1,6 +1,6 @@
 <?php
 
-namespace Larabookir\Gateway;
+namespace Viratef\Gateway;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Larabookir\Gateway;
+namespace Viratef\Gateway;
 
 interface PortInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Larabookir\Gateway\JahanPay;
+namespace Viratef\Gateway\JahanPay;
 
 use Illuminate\Support\Facades\Input;
-use Larabookir\Gateway\Enum;
+use Viratef\Gateway\Enum;
 use SoapClient;
-use Larabookir\Gateway\PortAbstract;
-use Larabookir\Gateway\PortInterface;
+use Viratef\Gateway\PortAbstract;
+use Viratef\Gateway\PortInterface;
 
 class JahanPay extends PortAbstract implements PortInterface
 {

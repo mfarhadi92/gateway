@@ -1,13 +1,13 @@
 <?php
 
-namespace Larabookir\Gateway\Zarinpal;
+namespace Viratef\Gateway\Zarinpal;
 
 use DateTime;
 use Illuminate\Support\Facades\Input;
-use Larabookir\Gateway\Enum;
+use Viratef\Gateway\Enum;
 use SoapClient;
-use Larabookir\Gateway\PortAbstract;
-use Larabookir\Gateway\PortInterface;
+use Viratef\Gateway\PortAbstract;
+use Viratef\Gateway\PortInterface;
 
 class Zarinpal extends PortAbstract implements PortInterface
 {

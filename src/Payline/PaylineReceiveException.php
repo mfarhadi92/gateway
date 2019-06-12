@@ -1,8 +1,8 @@
 <?php
 
-namespace Larabookir\Gateway\Payline;
+namespace Viratef\Gateway\Payline;
 
-use Larabookir\Gateway\Exceptions\BankException;
+use Viratef\Gateway\Exceptions\BankException;
 
 class PaylineReceiveException extends BankException
 {
